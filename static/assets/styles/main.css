@@ -1,0 +1,40 @@
+#about1, #about2, #about3, #about4, #about5, #about6{
+color:brown;
+text_decoration:bold;
+text_align:center;
+background_color:orange;
+}
+#about7{
+color:red;
+display:flex;
+
+text_align:center;
+
+
+}
+h3{
+ background_color:green;
+ color:red;
+ padding 40px;
+ margin:30px;
+}
+p{
+ background_color:green;
+ color:purple;
+
+}
+#form{
+background_color:navy blue;
+color:marron;
+padding:200px,400px;
+border_radius:400px;
+}
+#table
+ tr td{
+
+display:flex;
+position:center;
+border:3px solid black;
+
+
+}
