@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="../../static/assets/styles/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../static/assets/styles/main.css">
+
+</head>
+<body>
+<h1 id="about7">Lang Reading</h1>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">LANG READING</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="{% url 'index' %}">Home</a>
+        <a class="nav-link" href="{% url 'about' %}">About</a>
+        <a class="nav-link" href="{% url 'book_details' %}">Book Details</a>
+           <a class="nav-link" href="{% url 'book_list' %}">Book List</a>
+           <a class="nav-link" href="{% url 'contact' %}">contact</a>
+<!--        <a class="nav-link disabled" aria-disabled="true">Disabled</a>-->
+      </div>
+    </div>
+  </div>
+</nav>
+{% block content %}
+
+{% endblock %}
+<footer>
+    All Reserved Right By <mark>Lang Reading Library</mark>
+ <p>@ 2026 Lang Reading Library</p>
+</footer>
+<script src="../../static/assets/styles/bootstrap/js/bootstrap.bundle.js/"></script>
+</body>
+</html>

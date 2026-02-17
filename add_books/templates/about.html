@@ -1,35 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>About Us</title>
-    <link rel="stylesheet" href="../../static/assets/styles/main.css/">
-    <link rel="stylesheet" href="../../static/assets/styles/bootstrap/css/bootstrap.css/">
-</head>
-<body>
-<h1 id="about7">Lang Reading</h1>
+{% extends 'base.html' %}
+{% block title %}
+about-add_books
+{% endblock %}
+{% block content %}
 
-
-
-
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">LANG READING</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        <a class="nav-link" href="#">About</a>
-        <a class="nav-link" href="book_details.html">Book Details</a>
-           <a class="nav-link" href="book_list.html">Book List</a>
-           <a class="nav-link" href="contact.html">Contact</a>
-<!--        <a class="nav-link disabled" aria-disabled="true">Disabled</a>-->
-      </div>
-    </div>
-  </div>
-</nav>
 
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
@@ -37,7 +11,7 @@
       <img src="https://media.istockphoto.com/id/2162169948/photo/bookstore.jpg?s=612x612&w=0&k=20&c=UiB9bn_uSwsVmjiICIx4-LqieRz65xorcNCJL9SV7VM=" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://media.istockphoto.com/id/1334509802/photo/student-taking-book-in-library.jpg?s=612x612&w=0&k=20&c=Vpulk9fOcaesWmgHa9OcjI6Cb03hPhSmQ6O1ACPYrcw=" class="d-block w-100" alt="Lang Reading">
+      <img src="https://cdn.pixabay.com/photo/2016/08/24/16/20/books-1617327_960_720.jpg" class="d-block w-100" alt="Lang Reading">
     </div>
     <div class="carousel-item">
       <img src="https://media.istockphoto.com/id/1398123845/photo/used-book-market.jpg?s=612x612&w=0&k=20&c=_qq1QPxQx4Ej_y-_m8bC54XKOr0ol1_bRUPAPwsx4C8=" class="d-block w-100" alt="Welcome">
@@ -69,5 +43,4 @@
 <p id="about6">lighten your future <mark>Lang reading,developing mature leaders</mark></p>
 <a href="book_details.html">Our books</a>
 
-</body>
-</html>
+{% endblock %}
